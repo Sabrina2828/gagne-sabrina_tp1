@@ -1,0 +1,45 @@
+:root {
+    --bs-primary: #022B59; 
+    --bs-secondary: #f0f8ff; 
+}
+
+@font-face {
+    font-family: 'Avatar Water';
+    src: url('../assets/AvatarWater.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1.custom-font {
+    font-family: 'Avatar Water', sans-serif;
+    color: #b3e0ff;
+}
+
+header img {
+    filter: brightness(0.6);
+}
+
+.accordion-button {
+    background-color: var(--bs-primary);
+    color: var(--bs-secondary);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0192C5;
+    color: black;
+}
+
+.card {
+    background-color: var(--bs-primary);
+    color: var(--bs-secondary);
+}
+
+.card a {
+    color: var(--bs-secondary);
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #4db8ff;
+    text-decoration: underline;
+}
