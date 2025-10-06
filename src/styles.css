@@ -9,6 +9,9 @@
     font-weight: normal;
     font-style: normal;
 }
+body {
+    background-color: #4db8ff6c;
+}
 
 h1.custom-font {
     font-family: 'Avatar Water', sans-serif;
@@ -42,4 +45,19 @@ header img {
 .card a:hover {
     color: #4db8ff;
     text-decoration: underline;
+}
+
+nav.navbar {
+    z-index: 10; 
+    backdrop-filter: blur(6px); 
+}
+
+.navbar-brand {
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+    transition: color 0.3s ease;
 }
